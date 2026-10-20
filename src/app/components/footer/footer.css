@@ -1,0 +1,36 @@
+footer{
+    padding:60px 20px;
+    text-align:center;
+    background:#020617;
+}
+
+footer h2{
+    margin-bottom:15px;
+}
+
+footer p{
+    color:var(--text-light);
+    margin-bottom:25px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:25px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:var(--primary);
+}
+
+footer span{
+    color:var(--text-light);
+    font-size:.9rem;
+}
